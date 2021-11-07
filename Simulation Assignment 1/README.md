@@ -4,3 +4,4 @@ a) Simple Matrix Inversion
 b) Gaussian Elimination with Partial Pivoting  
 c) Gauss-Seidel Iteration  
 The circuit is  
+ 
