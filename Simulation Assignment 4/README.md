@@ -2,13 +2,14 @@
 Develop your Derivative / Integration code that can do the following:  
 a) Upload the data which will be in the form of x, f(x) (one file will be uploaded, test_1).  
 b) Once you run the program, it will ask you what you want to perform Derivative or Integration (you select one of them)  
-c) If you selected Derivative, then the program will do the following:  
+c) If you selected Derivative, then the program will do the following:
 i. Ask you to decide at what point, p you want to perform the derivative  
 ii. If the point is from the data set and the spacing between the points is even, then the program will calculate the derivative using the CDD method.  
 iii. If the point is not from the data set and/or the spacing between the points is not even, then the program first will use polynomial regression to estimate the function and then perform Derivative using CDD method with h = minimum of Δx from the data points.  
 iv. show the solution for following cases of test1.txt  
 1) p = 7  
-2) p = 18.5  
+2) p = 18.5 
+ 
 d) If you selected Integration, then the program will do the following:  
 i. Ask for the integration limit; p1, p2 where p2 > p1  
 ii. Ask for the number of segments; n  
